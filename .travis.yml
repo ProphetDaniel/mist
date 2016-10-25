@@ -1,9 +1,6 @@
 os: osx
-sudo: required
-dist: trusty
 language:
 - node_js
-- objective-c
 branches:
   only:
   - develop
