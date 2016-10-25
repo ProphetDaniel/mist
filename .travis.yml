@@ -8,8 +8,7 @@ node_js:
 - '4'
 before_install:
 - brew update
-- sudo apt-get -qq update
-- sudo apt-get install -y icnsutils graphicsmagick xz-utils
+- brew install -y icnsutils graphicsmagick xz-utils
 before_script:
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
