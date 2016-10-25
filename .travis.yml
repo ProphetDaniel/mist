@@ -1,3 +1,4 @@
+os: os-x
 sudo: required
 dist: trusty
 language: node_js
@@ -7,6 +8,7 @@ branches:
 node_js:
 - '4'
 before_install:
+- brew update
 - sudo apt-get -qq update
 - sudo apt-get install -y icnsutils graphicsmagick xz-utils
 before_script:
