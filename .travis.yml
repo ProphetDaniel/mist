@@ -20,6 +20,7 @@ before_script:
   - "sleep 3" # give xvfb some time to start
   - "curl https://install.meteor.com/ | sh"
   - "npm install -g meteor-build-client"
+  - git rm --cached mist
 
 script:
   - "npm run ci"
