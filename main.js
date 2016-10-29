@@ -342,7 +342,7 @@ var onReady = function() {
                     message: global.i18n.t('mist.errors.nonImmutableChain.title'),
                     detail: global.i18n.t('mist.errors.nonImmutableChain.description')
                 }, function(){
-                    shell.openExternal('https://github.com/ethereum/mist/releases/0.8.2');
+                    //shell.openExternal('https://github.com/ethereum/mist/releases/0.8.2');
                     app.quit();
                 });
 
