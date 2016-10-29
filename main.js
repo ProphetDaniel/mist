@@ -330,23 +330,23 @@ var onReady = function() {
             });
         });
 
-        // check legacy chain
-        // CHECK for legacy chain (FORK RELATED)
+        // check non immutable chain
+        // CHECK for non immutable chain (FORK RELATED)
         Q.try(() => {
-            // open the legacy chain message
-            if ((Settings.loadUserData('daoFork') || '').trim() === 'false') {
+            // open the non immutable chain message
+            if ((Settings.loadUserData('daoFork') || '').trim() === 'true') {
 
                 dialog.showMessageBox({
                     type: "warning",
                     buttons: ['OK'],
-                    message: global.i18n.t('mist.errors.legacyChain.title'),
-                    detail: global.i18n.t('mist.errors.legacyChain.description')
+                    message: global.i18n.t('mist.errors.nonImmutableChain.title'),
+                    detail: global.i18n.t('mist.errors.nonImmutableChain.description')
                 }, function(){
                     shell.openExternal('https://github.com/ethereum/mist/releases/0.8.2');
                     app.quit();
                 });
 
-                throw new Error('Cant start client due to legacy non-Fork setting.');
+                throw new Error('Cant start client due to non immutable forked setting.');
             }
         })
             .then(() => {
