@@ -52,7 +52,7 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://bintray.com/ethereumproject/GoEthereumClassic/download_file?file_path=geth-classic-win64-v3.0.1.zip",
+                            "url": "https://docs.google.com/uc?authuser=0&id=0B1dS7bWX63QZUnEwV1htaW05Yms&export=download",
                             "type": "zip",
                             "bin": "geth.exe"
                         },
