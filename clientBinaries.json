@@ -54,7 +54,7 @@
                         "download": {
                             "url": "https://bintray.com/ethereumproject/GoEthereumClassic/download_file?file_path=geth-classic-win64-v3.0.1.zip",
                             "type": "zip",
-                            "bin": "bin/geth.exe"
+                            "bin": "geth.exe"
                         },
                         "bin": "geth.exe",
                         "commands": {
