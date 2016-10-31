@@ -28,7 +28,7 @@
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Geth", "1.4.18" ]
+                                "output": [ "Geth", "lin ia32" ]
                             }
                         }
                     }
@@ -52,9 +52,9 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://docs.google.com/uc?authuser=0&id=0B1dS7bWX63QZUnEwV1htaW05Yms&export=download",
+                            "url": "https://docs.google.com/uc?authuser=0&id=0B1dS7bWX63QZbE12dVU1dVM5c3c&export=download",
                             "type": "zip",
-                            "bin": "geth.exe"
+                            "bin": "geth-classic-win64-v3.0.1.exe"
                         },
                         "bin": "geth.exe",
                         "commands": {
@@ -74,7 +74,7 @@
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Geth", "1.4.18" ]
+                                "output": [ "Geth", "win ia32" ]
                             }
                         }
                     }
