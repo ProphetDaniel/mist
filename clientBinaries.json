@@ -7,10 +7,10 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://bintray.com/artifact/download/karalabe/ethereum/geth-1.4.18-stable-c72f545-linux-amd64.tar.bz2",
-                            "type": "tar",
-                            "sha256": "ad74e052a9fba8e7389ee64c8b664c4dd9e9e2209276149bc49818f9064689b1",
-                            "bin": "geth-1.4.18-stable-c72f545-linux-amd64"
+                            "url": "https://bintray.com/artifact/download/ethereumproject/GoEthereumClassic/geth-classic-linux-x64-v3.0.1.zip",
+                            "type": "zip",
+                            "sha256": "3a1c90b674b9cc2e9774133016919e4b2f8142d4384ed12694806bbd8da58be5",
+                            "bin": "geth"
                         },
                         "bin": "geth",
                         "commands": {
@@ -39,10 +39,10 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://bintray.com/artifact/download/karalabe/ethereum/geth-1.4.18-stable-c72f545-darwin-10.6-amd64.tar.bz2",
-                            "type": "tar",
-                            "sha256": "1f7ac168a4502a9e88474f74b3cef2dda4843f350d7f9fcdd9ef10dff30b7282",
-                            "bin": "geth-1.4.18-stable-c72f545-darwin-10.6-amd64"
+                            "url": "https://bintray.com/artifact/download/ethereumproject/GoEthereumClassic/geth-classic-darwin-v3.0.1.zip",
+                            "type": "zip",
+                            "sha256": "05972421ba718e38377b430adc2c89e4ea1b3e60acdf365cc44c1c5967390bd5",
+                            "bin": "geth"
                         },
                         "bin": "geth",
                         "commands": {
@@ -56,10 +56,10 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://docs.google.com/uc?authuser=0&id=0B1dS7bWX63QZbE12dVU1dVM5c3c&export=download",
+                            "url": "https://bintray.com/artifact/download/ethereumproject/GoEthereumClassic/geth-classic-win64-v3.0.1.zip",
                             "type": "zip",
-                            "sha256": "7503cf9ab55225ab22674295e210a107ded2a8d4af57dc7cfcaa4c2b863b506e",
-                            "bin": "geth-1.4.18-stable-c72f545-windows-4.0-amd64.exe"
+                            "sha256": "1624504580d5d25fafcfc161191846f310f750e74428d3163f966b5009945f46",
+                            "bin": "bin/geth.exe"
                         },
                         "bin": "geth.exe",
                         "commands": {
