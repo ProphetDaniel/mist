@@ -149,15 +149,19 @@
             "peerSearchTimeout": "Skip peer search",
             "launchApp": "Launch Application",
             "clientBinaries": {
-                "scanning": "Scanning for client binaries ...",
-                "downloading": "Downloading client binaries ...",
-                "loadConfig": "Loading client config ...",
-                "filtering": "Filtering client binaries ...",
-                "done": "Client binaries resolved",
+                "scanning": "Checking for node update...",
+                "downloading": "Downloading new node...",
+                "loadConfig": "Loading client config...",
+                "filtering": "Filtering client binaries...",
+                "done": "Ethereum node up-to-date...",
                 "error": "Error running downloaded binary."
             }
         },
         "popupWindows": {
+            "clientUpdateAvailable": {
+                "downloadAndRestart": "Download and Restart",
+                "newVersionAvailable": "A new version of __client__(__version__) is available!"
+            },
             "updateAvailable": {
                 "download": "Download",
                 "newVersionAvailable": "A new version of __app__ is available!",
@@ -194,7 +198,7 @@
                 "unlocking": "Confirming...",
                 "createContract": "Create contract",
                 "estimatedFee": "Estimated fee consumption",
-                "estimatedGasError": "It seems this transaction will fail. If you submit it, it may consume all the gas you send.", 
+                "estimatedGasError": "It seems this transaction will fail. If you submit it, it may consume all the gas you send.",
                 "transactionThrow": "The contract won't allow this transaction to be executed",
                 "noEstimate": "We couldn't estimate the gas.",
                 "gasPrice": "Gas price",
